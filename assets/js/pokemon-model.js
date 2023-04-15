@@ -1,8 +1,13 @@
-
+/*Criando modelo de essenciais de um pokemon para que ele importado para o main*/
 class Pokemon {
-    number;
     name;
-    type;
+    number;
     types = [];
+    type;
+    image;
+    height;
+    weight;
+    abilities= [];
+    stats = [];
     photo;
-}
+  }
